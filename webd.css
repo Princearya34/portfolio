@@ -1,0 +1,195 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header .navbar ul li {
+    margin-right: 20px;
+  }
+  
+  header .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  header .navbar ul li a:hover {
+    color: #ff7f50;
+  }
+  
+  /* Home section styles */
+  .home {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .home .content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .home .content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .home .content a {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .home .content a span {
+    margin-right: 10px;
+  }
+  
+  .home .content a i {
+    font-size: 24px;
+  }
+  
+  .home .socials {
+    margin-top: 20px;
+  }
+  
+  .home .socials li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .credit{
+    text-align: center;
+  }
+  #resumebtn {
+    /* Add your desired styles here */
+    background: linear-gradient(to right, #007bff, #9b59b6);
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+    margin:15px;  
+  
+  }
+  
+  #resumebtn:hover {
+    background-color: #23527c;
+  } 
+  .con {
+    background-color: #e1f5fe;
+    padding: 20px;
+  }
+  
+  .con h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .con .tag {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .con p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .con .box-container {
+    margin-top: 20px;
+  }
+  
+  .con .box p {
+    font-size: 14px;
+    color: #999;
+  }
+  .contact-col {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .contact-col h4 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px;
+  }
+  
+  .contact-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-col ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .contact-col ul li i {
+    margin-right: 10px;
+  }
+  
+  .contact-col .social-links {
+    display: flex;
+    align-items: center;
+    margin: 10px; 
+  }
+  
+  .contact-col .social-links a {
+    margin-right: 10px;
+  }
+  
+  .contact-col .social-links img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .contact-col .social-links i {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .contact-col .social-links a:hover i {
+    color: #555;
+  }
+  .image{ 
+    margin: 5px;
+  }
+  .head{ 
+    margin:15px;
+  }
+  /* About section styles */
+   
